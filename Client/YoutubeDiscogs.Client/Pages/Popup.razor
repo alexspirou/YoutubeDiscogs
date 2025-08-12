@@ -1,0 +1,46 @@
+﻿@page "/"
+
+<h3>Discogs Releases</h3>
+
+@if (loading)
+{
+    <p>Loading...</p>
+}
+else if (!string.IsNullOrWhiteSpace(Error))
+{
+    <p style="color: red">@Error</p>
+}
+else
+{
+    <div class="header-section">
+        <input class="title-edit" @bind="EditableTitle" placeholder="Type release or artist..." />
+        <button class="pagination-button resend" @onclick="FetchReleases">Search</button>
+
+
+    </div>
+    <div class="release-grid">
+        @if (Releases == null || Releases.Count == 0)
+        {
+            <div style="padding:12px;color:#888;">No releases found.</div>
+        }
+        else
+        {
+            @foreach (var release in Releases)
+            {
+                <div class="release-card">
+                    <a href="@("https://www.discogs.com" + release.Uri)" target="_blank">
+                        <img src="@(release.CoverImage ?? release.Thumb ?? "https://via.placeholder.com/120?text=No+Image")" alt="@release.Title" />
+                    </a>
+                    <a class="release-title" href="@("https://www.discogs.com" + release.ResourceUrl)" target="_blank">@release.Title</a>
+                    <div class="release-artist">@release.Country (@release.Year)</div>
+                    <button class="wantlist-button" @onclick="() => AddToWantlist(release.Title)">Add to Wantlist</button>
+                </div>
+            }
+        }
+    </div>
+    <div id="pagination-controls">
+        <button class="pagination-button" @onclick="PrevPage" disabled="@(CurrentPage == 1)">Prev</button>
+        <span class="pagination-info">Page @CurrentPage of @TotalPages</span>
+        <button class="pagination-button" @onclick="NextPage" disabled="@(CurrentPage == TotalPages)">Next</button>
+    </div>
+}

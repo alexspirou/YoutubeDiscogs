@@ -1,0 +1,24 @@
+{
+  //  "profiles": {
+  //    "DiscogsYouTube.Blazor": {
+  //      "commandName": "Project",
+  //      "launchBrowser": true,
+  //      "environmentVariables": {
+  //        "ASPNETCORE_ENVIRONMENT": "Development"
+  //      },
+  //      "applicationUrl": "https://localhost:63583;http://localhost:63584"
+  //    }
+  //  }
+  "profiles": {
+    "DiscogsYouTube.Blazor": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+
+}

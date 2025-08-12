@@ -1,0 +1,501 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\controllers\\youtube\\youtubeoauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\controllers\\youtube\\youtubeoauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\settings\\googlesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\settings\\googlesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\a.spyrou\\AppData\\Roaming\\Microsoft\\UserSecrets\\801a82d1-2b28-46a4-bc48-5d8bd2f07685\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8353F5F3-8BD6-44E9-ADFC-E1B7DB2FB96E}|YoutubeDiscogsWantlist.Messaging\\YoutubeDiscogsWantlist.Messaging.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.messaging\\inrastructure\\consumer\\baserabbitconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8353F5F3-8BD6-44E9-ADFC-E1B7DB2FB96E}|YoutubeDiscogsWantlist.Messaging\\YoutubeDiscogsWantlist.Messaging.csproj|solutionrelative:youtubediscogswantlist.messaging\\inrastructure\\consumer\\baserabbitconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\controllers\\discogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\controllers\\discogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\controllers\\discogscontrollercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\controllers\\discogscontrollercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\controllers\\discogstokenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\controllers\\discogstokenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\wantlist\\wantlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\wantlist\\wantlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\efcore\\configuration\\wantlistitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\efcore\\configuration\\wantlistitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\wantlist\\wantlistitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\wantlist\\wantlistitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\wantlist\\iwantlistitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\wantlist\\iwantlistitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\appusers\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\appusers\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\efcore\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\efcore\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\efcore\\configuration\\discogsuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\efcore\\configuration\\discogsuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\appusers\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\appusers\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.analytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|solutionrelative:youtubediscogswantlist.analytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8353F5F3-8BD6-44E9-ADFC-E1B7DB2FB96E}|YoutubeDiscogsWantlist.Messaging\\YoutubeDiscogsWantlist.Messaging.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.messaging\\inrastructure\\consumer\\pubsubrabbitconsumer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8353F5F3-8BD6-44E9-ADFC-E1B7DB2FB96E}|YoutubeDiscogsWantlist.Messaging\\YoutubeDiscogsWantlist.Messaging.csproj|solutionrelative:youtubediscogswantlist.messaging\\inrastructure\\consumer\\pubsubrabbitconsumer2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.analytics\\handlers\\useraddtowantlisthandlerpubsub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|solutionrelative:youtubediscogswantlist.analytics\\handlers\\useraddtowantlisthandlerpubsub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.analytics\\handlers\\useraddtowantlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|solutionrelative:youtubediscogswantlist.analytics\\handlers\\useraddtowantlisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.analytics\\rabbitmq\\rabbitmqservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|solutionrelative:youtubediscogswantlist.analytics\\rabbitmq\\rabbitmqservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8353F5F3-8BD6-44E9-ADFC-E1B7DB2FB96E}|YoutubeDiscogsWantlist.Messaging\\YoutubeDiscogsWantlist.Messaging.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.messaging\\inrastructure\\publisher\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8353F5F3-8BD6-44E9-ADFC-E1B7DB2FB96E}|YoutubeDiscogsWantlist.Messaging\\YoutubeDiscogsWantlist.Messaging.csproj|solutionrelative:youtubediscogswantlist.messaging\\inrastructure\\publisher\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.analytics\\rabbitmq\\rabbitmqinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94D75B0E-2B12-4EAE-9DE0-4E264B203289}|YoutubeDiscogsWantlist.Analytics\\YoutubeDiscogsWantlist.Analytics.csproj|solutionrelative:youtubediscogswantlist.analytics\\rabbitmq\\rabbitmqinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\migrations\\20250802170917_remove-props-from-wantlistime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\migrations\\20250802170917_remove-props-from-wantlistime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|k:\\projects\\test\\youtube-discogs-wantlist\\server\\youtubediscogswantlist\\youtubediscogswantlist.core\\migrations\\20250802163504_add-wantlist-item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C263CB-BF42-4136-A972-BA6D896247E5}|YoutubeDiscogsWantlist.Core\\YoutubeDiscogsWantlist.Core.csproj|solutionrelative:youtubediscogswantlist.core\\migrations\\20250802163504_add-wantlist-item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 264,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseRabbitConsumer.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\BaseRabbitConsumer.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\BaseRabbitConsumer.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\BaseRabbitConsumer.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\BaseRabbitConsumer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADQv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T15:53:31.588Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiscogsController.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsController.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsController.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsController.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T16:47:52.087Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\Program.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Analytics\\Program.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\Program.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Analytics\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:15:16.177Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Program.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Program.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Program.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwFIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T20:29:14.063Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoogleSettings.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Settings\\GoogleSettings.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Settings\\GoogleSettings.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Settings\\GoogleSettings.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Settings\\GoogleSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:51:52.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\a.spyrou\\AppData\\Roaming\\Microsoft\\UserSecrets\\801a82d1-2b28-46a4-bc48-5d8bd2f07685\\secrets.json",
+              "ToolTip": "C:\\Users\\a.spyrou\\AppData\\Roaming\\Microsoft\\UserSecrets\\801a82d1-2b28-46a4-bc48-5d8bd2f07685\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T16:46:36.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\appsettings.json",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\appsettings.json",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\appsettings.json",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T16:41:52.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YouTubeOAuthController.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\Youtube\\YouTubeOAuthController.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Controllers\\Youtube\\YouTubeOAuthController.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\Youtube\\YouTubeOAuthController.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Controllers\\Youtube\\YouTubeOAuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvyYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:40:38.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiscogsTokensController.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsTokensController.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsTokensController.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsTokensController.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsTokensController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAhwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T16:00:48.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiscogsControllerCache.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsControllerCache.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsControllerCache.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsControllerCache.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Controllers\\DiscogsControllerCache.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAWwJIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T15:59:46.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "libman.json",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\libman.json",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\libman.json",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\libman.json",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T16:53:55.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WantListItemService.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\WantList\\WantListItemService.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\WantList\\WantListItemService.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\WantList\\WantListItemService.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\WantList\\WantListItemService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:50:07.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WantListItem.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\WantList\\WantListItem.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\WantList\\WantListItem.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\WantList\\WantListItem.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\WantList\\WantListItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:12:07.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250802170917_remove-props-from-wantlistime.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Migrations\\20250802170917_remove-props-from-wantlistime.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Migrations\\20250802170917_remove-props-from-wantlistime.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Migrations\\20250802170917_remove-props-from-wantlistime.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Migrations\\20250802170917_remove-props-from-wantlistime.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAIArwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:09:17.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IWantListItemService.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\WantList\\IWantListItemService.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\WantList\\IWantListItemService.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\WantList\\IWantListItemService.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\WantList\\IWantListItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:49:55.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WantListItemConfiguration.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\WantListItemConfiguration.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\WantListItemConfiguration.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\WantListItemConfiguration.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\WantListItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:28:33.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppUserService.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\AppUsers\\AppUserService.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\AppUsers\\AppUserService.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\AppUsers\\AppUserService.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\AppUsers\\AppUserService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:09:20.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Efcore\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Efcore\\AppDbContext.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Efcore\\AppDbContext.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Efcore\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:17:45.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250802163504_add-wantlist-item.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Migrations\\20250802163504_add-wantlist-item.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Migrations\\20250802163504_add-wantlist-item.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Migrations\\20250802163504_add-wantlist-item.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Migrations\\20250802163504_add-wantlist-item.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAEwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:35:04.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DiscogsUserConfiguration.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\DiscogsUserConfiguration.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\DiscogsUserConfiguration.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\DiscogsUserConfiguration.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\Efcore\\Configuration\\DiscogsUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:17:37.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\AppUsers\\AppUser.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Core\\AppUsers\\AppUser.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Core\\AppUsers\\AppUser.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Core\\AppUsers\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:09:19.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAMsTAAAAAAAAAAAgwNETAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-29T14:14:47.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PubSubRabbitConsumer2.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\PubSubRabbitConsumer2.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\PubSubRabbitConsumer2.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\PubSubRabbitConsumer2.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Consumer\\PubSubRabbitConsumer2.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIAgwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T14:06:00.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserAddToWantListHandler.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandler.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandler.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandler.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:50:49.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserAddToWantListHandlerPubSub.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandlerPubSub.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandlerPubSub.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandlerPubSub.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Analytics\\Handlers\\UserAddToWantListHandlerPubSub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:50:45.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RabbitMqServiceCollectionExtensions.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqServiceCollectionExtensions.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqServiceCollectionExtensions.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAnwD4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:44:40.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RabbitMqPublisher.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Publisher\\RabbitMqPublisher.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Publisher\\RabbitMqPublisher.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Publisher\\RabbitMqPublisher.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Messaging\\Inrastructure\\Publisher\\RabbitMqPublisher.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAlwCUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:27:45.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RabbitMqInitializer.cs",
+              "DocumentMoniker": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqInitializer.cs",
+              "RelativeDocumentMoniker": "YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqInitializer.cs",
+              "ToolTip": "K:\\Projects\\Test\\youtube-discogs-wantlist\\Server\\YoutubeDiscogsWantlist\\YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqInitializer.cs",
+              "RelativeToolTip": "YoutubeDiscogsWantlist.Analytics\\RabbitMq\\RabbitMqInitializer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAtwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:16:17.421Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

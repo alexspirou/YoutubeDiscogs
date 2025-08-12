@@ -1,0 +1,6 @@
+@YoutubeDiscogsWantlist_HostAddress = http://localhost:5057
+
+GET {{YoutubeDiscogsWantlist_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

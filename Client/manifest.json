@@ -1,0 +1,27 @@
+{
+     "manifest_version": 3,
+     "name": "Discogs Matcher",
+     "version": "1.0",
+     "description": "Show Discogs matches for the current YouTube video",
+     "permissions": [
+          "tabs",
+          "scripting"
+     ],
+     "host_permissions": [
+          "https://www.youtube.com/*"
+     ],
+     "action": {
+          "default_title": "Discogs Matcher",
+          "default_popup": "popup.html"
+     },
+     "content_scripts": [
+          {
+               "matches": [
+                    "https://www.youtube.com/watch*"
+               ],
+               "js": [
+                    "content.js"
+               ]
+          }
+     ]
+}
