@@ -168,7 +168,9 @@ public class DiscogsController : ControllerBase
 
 
         // Generate a weak ETag using a hash of the response
-        string etag = $"W/\"{Convert.ToBase64String(MD5.HashData(Encoding.UTF8.GetBytes(response)))}\"";
+        string etag = $"W/\"{Convert.ToBase64String(
+            MD5.HashData(JsonSerializer.SerializeToUtf8Bytes(response))
+        )}\"";
 
         // Check If-None-Match from client
         if (Request.Headers.TryGetValue("If-None-Match", out var ifNoneMatch)

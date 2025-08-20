@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
-using System.Text;
+using System.Text.Json;
 using YoutubeDiscogsWantlist.AppUsers;
 using YoutubeDiscogsWantlist.Core.WantList;
 using YoutubeDiscogsWantlist.Efcore.Modelsl;
@@ -43,7 +43,7 @@ public class DiscogsControllerCache : ControllerBase
             return NotFound(new { error = $"User {username} not found" });
 
         // 2. Generate ETag based on the response content
-        string etag = $"W/\"{Convert.ToBase64String(MD5.HashData(Encoding.UTF8.GetBytes(response.ToList())))}\"";
+        string etag = $"W/\"{Convert.ToBase64String(MD5.HashData(JsonSerializer.SerializeToUtf8Bytes(response)))}\"";
 
         // 3. Check if client sent If-None-Match with the same ETag
         if (Request.Headers.TryGetValue("If-None-Match", out var ifNoneMatch) && ifNoneMatch == etag)

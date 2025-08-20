@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using YoutubeDiscogsWantlist.AppUsers;
+using YoutubeDiscogsWantlist.Core.Settings;
 using YoutubeDiscogsWantlist.Core.WantList;
 using YoutubeDiscogsWantlist.Efcore;
 using YoutubeDiscogsWantlist.Messaging.Abstractions;
@@ -32,6 +33,18 @@ namespace YoutubeDiscogsWantlist
                 });
             });
 
+            // 1) Session needs an IDistributedCache implementation.
+            //    For dev: in-memory cache is fine.
+            builder.Services.AddDistributedMemoryCache();
+
+            // 2) Register Session
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromHours(1);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
             builder.Services.AddDbContext<AppDbContext>(options =>
                  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddControllers();
@@ -39,6 +52,8 @@ namespace YoutubeDiscogsWantlist
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.Configure<DiscogsSettings>(builder.Configuration.GetSection(nameof(DiscogsSettings)));
+            builder.Services.Configure<GoogleSettings>(builder.Configuration.GetSection(nameof(GoogleSettings)));
+
             builder.Services.AddMediatR(cfg =>
             {
                 cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
@@ -94,6 +109,7 @@ namespace YoutubeDiscogsWantlist
 
 
             app.MapControllers();
+            app.UseSession();
 
             app.Run();
         }

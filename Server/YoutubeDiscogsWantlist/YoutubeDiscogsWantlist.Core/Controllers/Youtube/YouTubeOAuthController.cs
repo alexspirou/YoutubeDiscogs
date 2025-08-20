@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text;
@@ -13,13 +14,13 @@ namespace YoutubeDiscogsWantlist.Core.Controllers.Youtube;
 public class YouTubeOAuthController : ControllerBase
 {
     private readonly IHttpClientFactory _http;
-    private readonly GoogleSettings _cfg;
+    private readonly GoogleSettings _googleSettings;
     private readonly ILogger<YouTubeOAuthController> _log;
 
-    public YouTubeOAuthController(IHttpClientFactory http, IConfiguration config, ILogger<YouTubeOAuthController> log)
+    public YouTubeOAuthController(IHttpClientFactory http, IOptions<GoogleSettings> googleSettings, ILogger<YouTubeOAuthController> log)
     {
         _http = http;
-        _cfg = config.GetSection("Google").Get<GoogleSettings>() ?? new GoogleSettings();
+        _googleSettings = googleSettings.Value;
         _log = log;
     }
 
@@ -39,16 +40,16 @@ public class YouTubeOAuthController : ControllerBase
         var url =
             "https://accounts.google.com/o/oauth2/v2/auth" +
             "?response_type=code" +
-            $"&client_id={Uri.EscapeDataString(_cfg.ClientId)}" +
-            $"&redirect_uri={Uri.EscapeDataString(_cfg.RedirectUri)}" +
-            $"&scope={Uri.EscapeDataString(_cfg.Scopes)}" +
+            $"&client_id={Uri.EscapeDataString(_googleSettings.ClientId)}" +
+            $"&redirect_uri={Uri.EscapeDataString(_googleSettings.RedirectUri)}" +
+            $"&scope={Uri.EscapeDataString(_googleSettings.Scopes)}" +
             $"&state={Uri.EscapeDataString(state)}" +
             "&access_type=offline" +            // request refresh token
             "&prompt=consent" +                 // ensure refresh token first time
             "&code_challenge_method=S256" +
             $"&code_challenge={codeChallenge}";
 
-        return Redirect(url);
+        return Ok(url);
     }
 
     // STEP 2: Handle Google's redirect and exchange code for tokens
@@ -72,9 +73,9 @@ public class YouTubeOAuthController : ControllerBase
         var form = new FormUrlEncodedContent(new Dictionary<string, string>
         {
             ["code"] = code,
-            ["client_id"] = _cfg.ClientId,
-            ["client_secret"] = _cfg.ClientSecret,
-            ["redirect_uri"] = _cfg.RedirectUri,
+            ["client_id"] = _googleSettings.ClientId,
+            ["client_secret"] = _googleSettings.ClientSecret,
+            ["redirect_uri"] = _googleSettings.RedirectUri,
             ["grant_type"] = "authorization_code",
             ["code_verifier"] = codeVerifier
         });
@@ -121,6 +122,33 @@ public class YouTubeOAuthController : ControllerBase
         return Content(json, "application/json", Encoding.UTF8);
     }
 
+    // GET /youtube/playlists?maxResults=25&pageToken=
+    [HttpGet("youtube/playlists")]
+    public async Task<IActionResult> GetMyPlaylists([FromQuery] int maxResults = 25, [FromQuery] string? pageToken = null)
+    {
+        var accessToken = await EnsureAccessTokenAsync();
+        if (accessToken is null) return Unauthorized(new { error = "Not authenticated" });
+
+        using var http = _http.CreateClient();
+        http.DefaultRequestHeaders.Authorization =
+            new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+
+        var qs = new List<string>
+    {
+        "part=snippet,contentDetails",
+        "mine=true",
+        $"maxResults={Math.Clamp(maxResults, 1, 50)}"
+    };
+        if (!string.IsNullOrEmpty(pageToken)) qs.Add($"pageToken={Uri.EscapeDataString(pageToken)}");
+
+        var url = $"https://www.googleapis.com/youtube/v3/playlists?{string.Join("&", qs)}";
+        var resp = await http.GetAsync(url);
+        var json = await resp.Content.ReadAsStringAsync();
+        return Content(json, "application/json", Encoding.UTF8);
+    }
+
+
+
     // Optional: Clear tokens
     // GET /oauth/logout
     [HttpGet("oauth/logout")]
@@ -161,8 +189,8 @@ public class YouTubeOAuthController : ControllerBase
         var http = _http.CreateClient();
         var form = new FormUrlEncodedContent(new Dictionary<string, string>
         {
-            ["client_id"] = _cfg.ClientId,
-            ["client_secret"] = _cfg.ClientSecret,
+            ["client_id"] = _googleSettings.ClientId,
+            ["client_secret"] = _googleSettings.ClientSecret,
             ["refresh_token"] = refreshToken,
             ["grant_type"] = "refresh_token"
         });
@@ -174,12 +202,23 @@ public class YouTubeOAuthController : ControllerBase
         var tokens = JsonSerializer.Deserialize<TokenResponse>(json);
         if (tokens is null || string.IsNullOrEmpty(tokens.access_token)) return false;
 
-        tokens.refresh_token ??= refreshToken; // Google may omit it on refresh
+        tokens.RefreshToken ??= refreshToken; // Google may omit it on refresh
         SaveTokens(tokens);
         return true;
     }
 
     private void SaveTokens(TokenResponse t)
+    {
+        HttpContext.Session.SetString("access_token", t.access_token);
+        if (!string.IsNullOrEmpty(t.refresh_token))
+            HttpContext.Session.SetString("refresh_token", t.refresh_token);
+
+        var expiresAt = DateTimeOffset.UtcNow.AddSeconds(t.expires_in);
+        HttpContext.Session.SetString("access_token_expires_at", expiresAt.ToUnixTimeSeconds().ToString());
+    }
+
+
+    private void SaveTokensInDb(TokenResponse t)
     {
         HttpContext.Session.SetString("access_token", t.access_token);
         if (!string.IsNullOrEmpty(t.refresh_token))
@@ -209,5 +248,8 @@ public class YouTubeOAuthController : ControllerBase
         string token_type,
         string? refresh_token,
         string? scope
-    );
+    )
+    {
+        public string? RefreshToken { get; set; } = refresh_token;
+    };
 }
